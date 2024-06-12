@@ -8,18 +8,18 @@ import {shouldPassVerification} from './assertions.js';
 
 const should = chai.should();
 
-// only use implementations with `StatusList2021` tags.
+// only use implementations with `BitstringStatusList` tags.
 const {match: issuerMatches} = endpoints.filterByTag({
   property: 'issuers',
-  tags: ['StatusList2021']
+  tags: ['BitstringStatusList']
 });
 
 const {match: verifierMatches} = endpoints.filterByTag({
   property: 'verifiers',
-  tags: ['StatusList2021']
+  tags: ['BitstringStatusList']
 });
 
-describe('StatusList2021 Credentials (Interop "statusPurpose: revocation")',
+describe('BitstringStatusList Credentials (Interop "statusPurpose: revocation")',
   function() {
     // this will tell the report
     // to make an interop matrix with this suite
@@ -50,7 +50,7 @@ describe('StatusList2021 Credentials (Interop "statusPurpose: revocation")',
     }
   });
 
-describe('StatusList2021 Credentials (Interop "statusPurpose: suspension")',
+describe('BitstringStatusList Credentials (Interop "statusPurpose: suspension")',
   function() {
     // this will tell the report
     // to make an interop matrix with this suite
