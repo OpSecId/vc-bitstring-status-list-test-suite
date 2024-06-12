@@ -1,4 +1,10 @@
-# w3c-ccg/status-list-2021-test-suite ChangeLog
+# w3c-ccg/vc-bitstring-status-list-test-suite ChangeLog
+
+## 1.1.1 - 2024-06-11
+
+### Changed
+- Updated `status-list-2021-test-suite` package name to
+  `vc-bitstring-status-list-test-suite`.
 
 ## 1.1.0 - 2023-12-14
 
