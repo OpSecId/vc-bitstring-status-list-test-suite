@@ -29,7 +29,7 @@ env:
 
 jobs:
   publish-image:
-    if: github.repository_owner == 'w3c'
+    if: github.repository_owner == 'OpSecId'
     strategy:
       fail-fast: false
 
